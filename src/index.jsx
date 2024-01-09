@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { App } from "./modules/App.jsx";
+import { App, School } from "./modules/App.jsx";
 import "./index.css";
 
 window.onerror = (e, s, l, c, err) => {
@@ -12,6 +12,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+  },
+  {
+    path: "/school",
+    element: <School />,
   },
 ]);
 
