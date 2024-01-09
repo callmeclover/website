@@ -52,37 +52,37 @@ function School() {
     <section className="project-container">
       <a href="/school/enlightenment-mini-project" className="proj">
       <article className="project-box">
-        <h2 className="project-header">enlightenment-mini-project</h2><br/><br/>
+        <h2 className="project-header">enlightenment-mini-project</h2>
         <span>project on the enlightenment period for 8th grade civics</span>
       </article>
         </a>
       <a href="/school/hydro-power-project" className="proj">
       <article className="project-box">
-        <h2 className="project-header">hydro-power-project</h2><br/><br/>
+        <h2 className="project-header">hydro-power-project</h2>
         <span>project on hydro power for 7th grade science</span>
       </article>
         </a>
       <a href="/school/sumer-tb" className="proj">
       <article className="project-box">
-        <h2 className="project-header">sumer-tb</h2><br/><br/>
+        <h2 className="project-header">sumer-tb</h2>
         <span>sumer travel brochure for 7th grade social studies</span>
       </article>
         </a>
       <a href="/school/europe-4-features" className="proj">
       <article className="project-box">
-        <h2 className="project-header">europe-4-features</h2><br/><br/>
+        <h2 className="project-header">europe-4-features</h2>
         <span>project on 4 features in europe for 6th grade social studies</span>
       </article>
         </a>
       <a href="/school/feudal-japan" className="proj">
       <article className="project-box">
-        <h2 className="project-header">feudal-japan</h2><br/><br/>
+        <h2 className="project-header">feudal-japan</h2>
         <span>project on feudalism in japan for 6th grade social studies</span>
       </article>
         </a>
       <a href="/school/nepal" className="proj">
       <article className="project-box">
-        <h2 className="project-header">nepal</h2><br/><br/>
+        <h2 className="project-header">nepal</h2>
         <span>project on nepal for 6th grade social studies</span>
       </article>
         </a>
