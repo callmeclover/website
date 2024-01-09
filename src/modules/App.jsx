@@ -42,10 +42,10 @@ function App() {
 
 function School() {
   return <>
-  <div className="title">
+  <header>
       <h1>clover's school projects</h1>
       <h3>edumacetionel</h3>
-    </div>
+    </header>
 
     <p>check out some of my school projects, or go back to the <a href="/">homepage</a>:</p>
     
