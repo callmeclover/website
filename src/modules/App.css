@@ -12,16 +12,16 @@ section.project-container {
 .project-box {
   width: 20vw;
   min-height: 20vh;
-  background: #3C5233;
+  background: var(--proj-cont-color);
   text-align: center;
   display: block;
   padding: 5px;
   border-radius: 1em;
-  color: #70AE6E;
+  color: var(--text-color);
 }
 
 .project-header {
-  color: #BEEE62;
+  color: var(--header-color);
   font-size: 1.5em;
 }
 
