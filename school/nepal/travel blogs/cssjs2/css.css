@@ -1,0 +1,28 @@
+body, html {
+  background-color: rgb(40, 40, 43);
+  height: 100%;
+  font-family: 'Kanit', sans-serif;
+}
+p {
+color: white;
+}
+h1 {
+color: white;
+}
+h2 {
+color: white;
+}
+h3 {
+color: white;
+}
+#nttb {
+text-align: center;
+}
+#ls1 {
+  background-image: url('images2/nls1.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+    width: 100vw;
+  height: 100vh;
+}

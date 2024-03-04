@@ -1,0 +1,22 @@
+[submodule "nepal"]
+	path = /school/nepal
+	url = https://github.com/callmeclover/nepal
+
+[submodule "feudal-japan"]
+	path = /school/feudal-japan
+	url = https://github.com/callmeclover/feudal-japan
+
+[submodule "europe-4-features"]
+	path = /school/europe-4-features
+	url = https://github.com/callmeclover/europe-4-features
+
+[submodule "hydro-power-project"]
+	path = /school/hydro-power-project
+	url = https://github.com/callmeclover/hydro-power-project
+
+[submodule "enlightenment-mini-project"]
+	path = /school/enlightenment-mini-project
+	url = https://github.com/callmeclover/enlightenment-mini-project
+[submodule "school/sumer-tb"]
+	path = school/sumer-tb
+	url = https://github.com/callmeclover/sumer-tb
