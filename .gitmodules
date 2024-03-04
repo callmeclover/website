@@ -17,3 +17,6 @@
 [submodule "school/sumer-tb"]
 	path = school/sumer-tb
 	url = https://github.com/callmeclover/sumer-tb
+[submodule "school/nepal"]
+	path = school/nepal
+	url = https://github.com/callmeclover/nepal
