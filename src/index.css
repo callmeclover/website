@@ -1,0 +1,84 @@
+:root {
+	font-family: Agave, monospace;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* Headings */
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: SUSE, serif;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.75rem;
+}
+
+h4 {
+	font-size: 1.5rem;
+}
+
+h5 {
+	font-size: 1.25rem;
+}
+
+h6 {
+	font-size: 1rem;
+}
+
+/* Paragraphs */
+p {
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+/* Small text */
+small {
+	font-size: 0.875rem;
+}
+
+/* Links */
+a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Buttons */
+button {
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	background-color: #007bff;
+	color: white;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+
+@font-face {
+	font-family: Agave;
+	src: url("fonts/agave.ttf");
+}
+
+@font-face {
+	font-family: SUSE;
+	src: url("fonts/suse_extra.ttf");
+}
