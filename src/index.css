@@ -2,6 +2,11 @@
 	font-family: Agave, monospace;
 	font-size: 16px;
 	line-height: 1.5;
+	color: #aad4aa;
+}
+
+body {
+	background-color: #0b130a;
 }
 
 /* Headings */
@@ -9,6 +14,7 @@
 h1,h2,h3,h4,h5,h6 {
 	font-family: SUSE, serif;
 	font-weight: bold;
+	color: #64b46f;
 }
 
 h1 {
@@ -48,28 +54,13 @@ small {
 
 /* Links */
 a {
-	color: #007bff;
+	color: #EB9486;
 	text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
-}
-
-/* Buttons */
-button {
-	font-size: 1rem;
-	font-weight: bold;
-	padding: 0.5rem 1rem;
-	border-radius: 5px;
-	border: none;
-	cursor: pointer;
-	background-color: #007bff;
-	color: white;
-}
-
-button:hover {
-	background-color: #0056b3;
+	transition: all 0.5s;
+	text-decoration: wavy underline;
 }
 
 
