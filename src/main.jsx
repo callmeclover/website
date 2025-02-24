@@ -2,37 +2,35 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
+import App from "./App";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: (
-      <>
-        <h1>hi im clover</h1>
-        <p>whoops sorry im still making everything.</p>
-        <p>every page will be 404s until listed as completed</p>
-        <a href="non-existstent">example 404 page</a>
-      </>
-    ),
+    element: <App />,
   },
   {
     path: "*",
     element: (
       <>
-        <h1>w0ah dude...</h1>
-        <p>this page is like, totally unfinished, or something.</p>
-        <p>
-          come back later to see me{" "}
-          {
-            [
-              "do ballet",
-              "make waffles",
-              "play the drums",
-              "set my kitchen on fire",
-            ][Math.floor(Math.random() * 4)]
-          }
-          !!1!
-        </p>
+        <header>
+          <h1>w0ah dude...</h1>
+        </header>
+        <main>
+          <p>this page is like, totally unfinished, or something.</p>
+          <p>
+            come back later to see me{" "}
+            {
+              [
+                "do ballet",
+                "make waffles",
+                "play the drums",
+                "set my kitchen on fire",
+              ][Math.floor(Math.random() * 4)]
+            }
+            !!1!
+          </p>
+        </main>
       </>
     ),
   },
@@ -41,5 +39,12 @@ const router = createBrowserRouter([
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RouterProvider router={router} />
+    <footer>
+      <p>
+        &#169; Clover Johnson •{" "}
+        <a href="mailto:callmeclover@clovr.rocks">send me an email</a> •{" "}
+        <a href="https://github.com/callmeclover/">my github</a>
+      </p>
+    </footer>
   </StrictMode>
 );
